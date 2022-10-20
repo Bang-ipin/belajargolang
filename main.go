@@ -1,7 +1,7 @@
 package main
 
 import (
-	"arraydata"
+	"belajargolang/arraydata"
 	"fmt"
 )
 
@@ -15,8 +15,7 @@ func main() {
 	x := 20
 	fmt.Println(x)
 	fmt.Println(Calculation(10, 4))
-	result := arraydata.ArrayData()
-	return result
+	arraydata.ArrayData()
 }
 
 func Calculation(number int, numberTwo int) int {

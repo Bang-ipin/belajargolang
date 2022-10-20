@@ -1,11 +1,8 @@
 package arraydata
 
-import (
-	"fmt"
-	"strings"
-)
+import "fmt"
 
 func ArrayData() {
 	x := []string{"SATU", "DUA", "TIGA", "EMPAT"}
-	fmt.Println(strings.Trim(fmt.Sprint(x), "[]"))
+	fmt.Println(x)
 }
